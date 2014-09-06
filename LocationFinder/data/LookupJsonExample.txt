@@ -1,0 +1,132 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Leeds Grammar School",
+               "short_name" : "Leeds Grammar School",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "Otley Old Road",
+               "short_name" : "Otley Old Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Leeds",
+               "short_name" : "Leeds",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Leeds",
+               "short_name" : "Leeds",
+               "types" : [ "postal_town" ]
+            },
+            {
+               "long_name" : "West Yorkshire",
+               "short_name" : "West York",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "United Kingdom",
+               "short_name" : "GB",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "LS16 6HQ",
+               "short_name" : "LS16 6HQ",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Leeds Grammar School, Otley Old Road, Leeds, West Yorkshire LS16 6HQ, UK",
+         "geometry" : {
+            "location" : {
+               "lat" : 53.84406329999999,
+               "lng" : -1.5965044
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.84541228029149,
+                  "lng" : -1.595155419708498
+               },
+               "southwest" : {
+                  "lat" : 53.84271431970849,
+                  "lng" : -1.597853380291502
+               }
+            }
+         },
+         "types" : [ "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "The Grammar School at Leeds",
+               "short_name" : "The Grammar School at Leeds",
+               "types" : [ "establishment" ]
+            },
+            {
+               "long_name" : "Alwoodley Gates",
+               "short_name" : "Alwoodley Gates",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "Harrogate Road",
+               "short_name" : "Harrogate Rd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Leeds",
+               "short_name" : "Leeds",
+               "types" : [ "postal_town" ]
+            },
+            {
+               "long_name" : "West Yorkshire",
+               "short_name" : "West York",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "United Kingdom",
+               "short_name" : "GB",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "LS17 8GS",
+               "short_name" : "LS17 8GS",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "The Grammar School at Leeds, Alwoodley Gates, Harrogate Road, Leeds, West Yorkshire LS17 8GS, UK",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.8685095,
+                  "lng" : -1.5104807
+               },
+               "southwest" : {
+                  "lat" : 53.8619804,
+                  "lng" : -1.5264989
+               }
+            },
+            "location" : {
+               "lat" : 53.8650546,
+               "lng" : -1.5199573
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.8685095,
+                  "lng" : -1.5104807
+               },
+               "southwest" : {
+                  "lat" : 53.8619804,
+                  "lng" : -1.5264989
+               }
+            }
+         },
+         "partial_match" : true,
+         "types" : [ "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}
