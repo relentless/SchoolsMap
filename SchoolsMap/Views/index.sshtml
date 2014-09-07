@@ -4,6 +4,7 @@
     <title>Leeds Schools Map</title>
 
     <script src="../Content/jquery-2.1.1.min.js"></script>
+    <script src="../Content/schoolsMap.js"></script>
 
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" charset="utf-8"/>
     <style type="text/css">
@@ -15,37 +16,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY0C0KvGuucsRw7adOrXnsir25tEPAUpQ">
     </script>
     <script type="text/javascript">
-      function initialize() {
-      var mapOptions = {
-      center: new google.maps.LatLng(53.7996388, -1.5491220999999768),
-      zoom: 14
-      };
-      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-
-      $.ajax({
-      url: "http://localhost:3579/schools",
-      type: 'GET',  
-      contentType: "application/json",
-      dataType: "json",
-      success: function (data) {
-      var myLatlng = new google.maps.LatLng(data.Lat,data.Lon);
-      var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: data.Name + "\nRank " + data.Rank ,
-      icon: 'Content/1stQuartile.png'
-      });
-      },
-      error: function (jqXHR, textStatus, errorThrown) {
-      alert(errorThrown);
-      }
-      });
-
-      }
-
       google.maps.event.addDomListener(window, 'load', initialize);
-
-
     </script>
   </head>
   <body>
