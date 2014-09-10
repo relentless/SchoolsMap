@@ -1,6 +1,7 @@
 ﻿namespace SchoolsMap
 
 open Nancy
+open System.IO
 open Newtonsoft.Json
 
 type School = {
@@ -12,22 +13,20 @@ type School = {
 
 type IndexModule() as x =
     inherit NancyModule()
+
+    let loadSchoolData() = 
+        File.ReadAllLines("""C:\Programming\SchoolsMap\SchoolsMap\data\school_locations.csv""").[1..]
+        |> Array.map (fun (line:string) -> line.Split(','))
+        |> Array.map (fun school -> {Name = school.[0]; Lat = decimal school.[1]; Lon = decimal school.[2]; Rank = float school.[3]})
+        |> Array.toList 
+
+
     do x.Get.["/"] <- fun _ -> 
         box x.View.["index"]
 
     do x.Get.["/schools"] <- fun _ -> 
 
-        let json = 
-            JsonConvert.SerializeObject(
-                [
-                    { Name = "Leeds School";
-                      Lat = 53.7996388m;
-                      Lon = -1.5491220999999768m;
-                      Rank = 0.75 };
-                    { Name = "Other School";
-                      Lat = 53.787547m;
-                      Lon = -1.543452m;
-                      Rank = 0.75 }
-                 ])
+        let schoolData = loadSchoolData()
+        let json = JsonConvert.SerializeObject(schoolData)
 
         json :> obj
