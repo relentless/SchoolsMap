@@ -6,7 +6,7 @@ open FSharp.Data
 type Location = JsonProvider<"data/LookupJsonExample.txt">
 
 let lookup name =
-    let searchString = name + ",Leeds,Yorkshire"
+    let searchString = name + ",Yorkshire"
     let jsonResults = (createRequest Get ("https://maps.googleapis.com/maps/api/geocode/json?address=" + searchString + "&key=AIzaSyBY0C0KvGuucsRw7adOrXnsir25tEPAUpQ") |> getResponseBody)
     let results = Location.Parse(jsonResults)
     results.Results
@@ -48,9 +48,9 @@ let main _ =
                     | "x" -> (0M, 0M)
                     | selectedIndex -> showGetResults name locations (int selectedIndex)
 
-            sprintf "%s,%f,%f,%f,%s,%s" name lat lon (float schoolInfo.[2]) schoolInfo.[4] schoolInfo.[5])
+            sprintf "%s,%f,%f,%f,%f,%s,%s,%s" name lat lon (float schoolInfo.[2]) (float (schoolInfo.[3].Replace("%", ""))) schoolInfo.[4] schoolInfo.[5] schoolInfo.[6])
 
-    let outputIncludingHeader = outputLines |> Array.append [|"name, latitude, longitude, rank, private, religious"|]
+    let outputIncludingHeader = outputLines |> Array.append [|"name, latitude, longitude, rank, score, private, religious, catholic"|]
     
     File.WriteAllLines( """..\..\data\school_locations.csv""", outputIncludingHeader )
 

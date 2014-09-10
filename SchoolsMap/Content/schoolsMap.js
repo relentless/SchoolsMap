@@ -18,8 +18,8 @@
                 var marker = new google.maps.Marker({
                     position: myLatlng,
                     map: map,
-                    title: school.Name + "\nRank " + school.Rank,
-                    icon: 'Content/1stQuartile.png'
+                    title: school.Name + "\nRank: " + school.Rank + "\nScore: " + school.Score,
+                    icon: 'Content/' + school.Icon
                 });
             }
         },
