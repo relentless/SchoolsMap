@@ -1,45 +1,45 @@
-School name,Position (All),Rank (All),2010-2013,Private,Religious,Catholic
-The Grammar School At Leeds,1,1,99%,TRUE,FALSE,FALSE
-Gateways School,2,0.976744186,87%,TRUE,FALSE,FALSE
-St Marys Catholic Comprehensive School,3,0.953488372,86%,FALSE,TRUE,TRUE
-Woodhouse Grove School,4,0.930232558,83%,TRUE,FALSE,FALSE
-Garforth Academy,5,0.906976744,75%,FALSE,FALSE,FALSE
-The Farnley Academy,6,0.88372093,73%,FALSE,FALSE,FALSE
-Horsforth School,7,0.860465116,71%,FALSE,FALSE,FALSE
-Abbey Grange Church of England Academy,8,0.837209302,70%,FALSE,TRUE,FALSE
-Woodkirk Academy,9,0.813953488,69%,FALSE,FALSE,FALSE
-Wetherby High School,10,0.790697674,69%,FALSE,FALSE,FALSE
-Guiseley School,11,0.76744186,69%,FALSE,FALSE,FALSE
-Roundhay School,12,0.744186047,69%,FALSE,FALSE,FALSE
-Otley Prince Henrys Grammar School,13,0.720930233,67%,FALSE,FALSE,FALSE
-The Morley Academy,14,0.697674419,66%,FALSE,FALSE,FALSE
-Cardinal Heenan Catholic High School,15,0.674418605,64%,FALSE,TRUE,TRUE
-Fulneck School,16,0.651162791,63%,TRUE,FALSE,FALSE
-Benton Park School,17,0.627906977,63%,FALSE,FALSE,FALSE
-Allerton High School,18,0.604651163,62%,FALSE,FALSE,FALSE
-Temple Moor High School,19,0.581395349,58%,FALSE,FALSE,FALSE
-Rodillian Academy,20,0.558139535,58%,FALSE,FALSE,FALSE
-Crawshaw School,21,0.534883721,58%,FALSE,FALSE,FALSE
-Priesthorpe School,22,0.511627907,57%,FALSE,FALSE,FALSE
-Focus School Boston Spa,23,0.488372093,56%,TRUE,FALSE,FALSE
-Brigshaw High School and Language College,24,0.465116279,56%,FALSE,FALSE,FALSE
-Pudsey Grangefield School,25,0.441860465,52%,FALSE,FALSE,FALSE
-Ralph Thoresby School,26,0.418604651,51%,FALSE,FALSE,FALSE
-Boston Spa School,27,0.395348837,50%,FALSE,FALSE,FALSE
-Corpus Christi Catholic College,28,0.372093023,49%,FALSE,TRUE,TRUE
-Royds School Specialist Language College,29,0.348837209,49%,FALSE,FALSE,FALSE
-Bruntcliffe School,30,0.325581395,48%,FALSE,FALSE,FALSE
-Leeds West Academy,31,0.302325581,48%,FALSE,FALSE,FALSE
-Lawnswood School,32,0.279069767,48%,FALSE,FALSE,FALSE
-Allerton Grange School,33,0.255813953,46%,FALSE,FALSE,FALSE
-Cockburn,34,0.23255814,46%,FALSE,FALSE,FALSE
-Mount St Marys Catholic High School,35,0.209302326,45%,FALSE,TRUE,TRUE
-David Young Community Academy,36,0.186046512,44%,FALSE,FALSE,FALSE
-New Horizon Community School,37,0.162790698,42%,TRUE,FALSE,FALSE
-Carr Manor Community School,38,0.139534884,41%,FALSE,FALSE,FALSE
-Leeds East Academy,39,0.11627907,38%,FALSE,FALSE,FALSE
-John Smeaton Community College,40,0.093023256,38%,FALSE,FALSE,FALSE
-The Co-operative Academy of Leeds,41,0.069767442,33%,FALSE,FALSE,FALSE
-South Leeds Academy,42,0.046511628,31%,FALSE,FALSE,FALSE
-Swallow Hill Community College,43,0.023255814,28%,FALSE,FALSE,FALSE
-City of Leeds School,44,0,26%,FALSE,FALSE,FALSE
+School name,Position (All),Rank (All),2010-2013,Private,Religious,Catholic,Type
+The Grammar School At Leeds,1,1,99%,TRUE,FALSE,FALSE,Secondary
+Gateways School,2,0.976744186,87%,TRUE,FALSE,FALSE,Secondary
+St Marys Catholic Comprehensive School,3,0.953488372,86%,FALSE,TRUE,TRUE,Secondary
+Woodhouse Grove School,4,0.930232558,83%,TRUE,FALSE,FALSE,Secondary
+Garforth Academy,5,0.906976744,75%,FALSE,FALSE,FALSE,Secondary
+The Farnley Academy,6,0.88372093,73%,FALSE,FALSE,FALSE,Secondary
+Horsforth School,7,0.860465116,71%,FALSE,FALSE,FALSE,Secondary
+Abbey Grange Church of England Academy,8,0.837209302,70%,FALSE,TRUE,FALSE,Secondary
+Woodkirk Academy,9,0.813953488,69%,FALSE,FALSE,FALSE,Secondary
+Wetherby High School,10,0.790697674,69%,FALSE,FALSE,FALSE,Secondary
+Guiseley School,11,0.76744186,69%,FALSE,FALSE,FALSE,Secondary
+Roundhay School,12,0.744186047,69%,FALSE,FALSE,FALSE,Secondary
+Otley Prince Henrys Grammar School,13,0.720930233,67%,FALSE,FALSE,FALSE,Secondary
+The Morley Academy,14,0.697674419,66%,FALSE,FALSE,FALSE,Secondary
+Cardinal Heenan Catholic High School,15,0.674418605,64%,FALSE,TRUE,TRUE,Secondary
+Fulneck School,16,0.651162791,63%,TRUE,FALSE,FALSE,Secondary
+Benton Park School,17,0.627906977,63%,FALSE,FALSE,FALSE,Secondary
+Allerton High School,18,0.604651163,62%,FALSE,FALSE,FALSE,Secondary
+Temple Moor High School,19,0.581395349,58%,FALSE,FALSE,FALSE,Secondary
+Rodillian Academy,20,0.558139535,58%,FALSE,FALSE,FALSE,Secondary
+Crawshaw School,21,0.534883721,58%,FALSE,FALSE,FALSE,Secondary
+Priesthorpe School,22,0.511627907,57%,FALSE,FALSE,FALSE,Secondary
+Focus School Boston Spa,23,0.488372093,56%,TRUE,FALSE,FALSE,Secondary
+Brigshaw High School and Language College,24,0.465116279,56%,FALSE,FALSE,FALSE,Secondary
+Pudsey Grangefield School,25,0.441860465,52%,FALSE,FALSE,FALSE,Secondary
+Ralph Thoresby School,26,0.418604651,51%,FALSE,FALSE,FALSE,Secondary
+Boston Spa School,27,0.395348837,50%,FALSE,FALSE,FALSE,Secondary
+Corpus Christi Catholic College,28,0.372093023,49%,FALSE,TRUE,TRUE,Secondary
+Royds School Specialist Language College,29,0.348837209,49%,FALSE,FALSE,FALSE,Secondary
+Bruntcliffe School,30,0.325581395,48%,FALSE,FALSE,FALSE,Secondary
+Leeds West Academy,31,0.302325581,48%,FALSE,FALSE,FALSE,Secondary
+Lawnswood School,32,0.279069767,48%,FALSE,FALSE,FALSE,Secondary
+Allerton Grange School,33,0.255813953,46%,FALSE,FALSE,FALSE,Secondary
+Cockburn,34,0.23255814,46%,FALSE,FALSE,FALSE,Secondary
+Mount St Marys Catholic High School,35,0.209302326,45%,FALSE,TRUE,TRUE,Secondary
+David Young Community Academy,36,0.186046512,44%,FALSE,FALSE,FALSE,Secondary
+New Horizon Community School,37,0.162790698,42%,TRUE,FALSE,FALSE,Secondary
+Carr Manor Community School,38,0.139534884,41%,FALSE,FALSE,FALSE,Secondary
+Leeds East Academy,39,0.11627907,38%,FALSE,FALSE,FALSE,Secondary
+John Smeaton Community College,40,0.093023256,38%,FALSE,FALSE,FALSE,Secondary
+The Co-operative Academy of Leeds,41,0.069767442,33%,FALSE,FALSE,FALSE,Secondary
+South Leeds Academy,42,0.046511628,31%,FALSE,FALSE,FALSE,Secondary
+Swallow Hill Community College,43,0.023255814,28%,FALSE,FALSE,FALSE,Secondary
+City of Leeds School,44,0,26%,FALSE,FALSE,FALSE,Secondary

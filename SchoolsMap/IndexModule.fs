@@ -13,7 +13,8 @@ type SchoolPre = {
     Score: float;
     Private: bool;
     Religious: bool;
-    Catholic: bool
+    Catholic: bool;
+    Type: string
 }
 
 type School = {
@@ -22,6 +23,7 @@ type School = {
     Lon: decimal;
     Rank: float;
     Score: float;
+    Type: string;
     Icon: string
 }
 
@@ -29,6 +31,7 @@ type IndexModule() as x =
     inherit NancyModule()
 
     let getIcon = function
+        | { SchoolPre.Type = "Primary" } -> "Primary.png"
         | { SchoolPre.Rank = rank; SchoolPre.Private = true } when rank > 0.75 -> "1stQuartile_$.png"
         | { SchoolPre.Rank = rank; SchoolPre.Private = true } when rank <= 0.75 -> "2ndQuartile_$.png"
         | { SchoolPre.Rank = rank } when rank > 0.75 -> "1stQuartile.png"
@@ -37,10 +40,9 @@ type IndexModule() as x =
     let loadSchoolData() = 
         File.ReadAllLines("""C:\Programming\SchoolsMap\SchoolsMap\data\school_locations.csv""").[1..]
         |> Array.map (fun (line:string) -> line.Split(','))
-        |> Array.map (fun school -> {Name = school.[0]; Lat = decimal school.[1]; Lon = decimal school.[2]; Rank = float school.[3]; Score = float school.[4]; Private = Convert.ToBoolean(school.[5]); Religious = Convert.ToBoolean(school.[6]); Catholic = Convert.ToBoolean(school.[7]); })
-        |> Array.map (fun school -> {Name = school.Name; Lat = school.Lat; Lon = school.Lon; Rank = school.Rank; Score = school.Score; Icon = school |> getIcon})
+        |> Array.map (fun school -> {Name = school.[0]; Lat = decimal school.[1]; Lon = decimal school.[2]; Rank = float school.[3]; Score = float school.[4]; Private = Convert.ToBoolean(school.[5]); Religious = Convert.ToBoolean(school.[6]); Catholic = Convert.ToBoolean(school.[7]); Type = school.[8] })
+        |> Array.map (fun school -> {Name = school.Name; Lat = school.Lat; Lon = school.Lon; Rank = school.Rank; Score = school.Score; Type = school.Type; Icon = school |> getIcon})
         |> Array.toList 
-
 
     do x.Get.["/"] <- fun _ -> 
         box x.View.["index"]

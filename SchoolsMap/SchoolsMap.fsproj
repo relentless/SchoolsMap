@@ -74,15 +74,18 @@
     <Compile Include="Bootstrapper.fs" />
     <Compile Include="IndexModule.fs" />
     <Compile Include="Program.fs" />
-    <Content Include="Content\1stQuartile_%24.png">
+    <None Include="Content\1stQuartile_%24.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\2ndQuartile.png">
+    </None>
+    <None Include="Content\2ndQuartile.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\2ndQuartile_%24.png">
+    </None>
+    <None Include="Content\2ndQuartile_%24.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
+    <None Include="Content\primary.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <Content Include="readme.txt" />
   </ItemGroup>

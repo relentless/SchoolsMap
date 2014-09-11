@@ -22,6 +22,7 @@ let main _ =
 
     let dataLines =
         File.ReadAllLines(__SOURCE_DIRECTORY__ + """\data\secondary.csv""").[1..]
+        |> Array.append (File.ReadAllLines(__SOURCE_DIRECTORY__ + """\data\primary.csv""").[1..])
         |> Array.map (fun line -> line.Split(','))
 
     printfn "%i records to process\n" dataLines.Length
@@ -48,9 +49,9 @@ let main _ =
                     | "x" -> (0M, 0M)
                     | selectedIndex -> showGetResults name locations (int selectedIndex)
 
-            sprintf "%s,%f,%f,%f,%f,%s,%s,%s" name lat lon (float schoolInfo.[2]) (float (schoolInfo.[3].Replace("%", ""))) schoolInfo.[4] schoolInfo.[5] schoolInfo.[6])
+            sprintf "%s,%f,%f,%f,%f,%s,%s,%s,%s" name lat lon (float schoolInfo.[2]) (float (schoolInfo.[3].Replace("%", ""))) schoolInfo.[4] schoolInfo.[5] schoolInfo.[6] schoolInfo.[7])
 
-    let outputIncludingHeader = outputLines |> Array.append [|"name, latitude, longitude, rank, score, private, religious, catholic"|]
+    let outputIncludingHeader = outputLines |> Array.append [|"name, latitude, longitude, rank, score, private, religious, catholic, type"|]
     
     File.WriteAllLines( """..\..\data\school_locations.csv""", outputIncludingHeader )
 
