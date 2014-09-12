@@ -27,14 +27,14 @@ Shadwell Primary School,53.851753,-1.474717,0.886256,91.000000,FALSE,FALSE,FALSE
 Holy Family Catholic Primary School,53.796398,-1.580907,0.881517,90.000000,FALSE,TRUE,TRUE,Primary
 White Laith Primary School,53.831214,-1.453493,0.876777,90.000000,FALSE,FALSE,FALSE,Primary
 Wigton Moor Primary School,53.856225,-1.517310,0.872038,90.000000,FALSE,FALSE,FALSE,Primary
-St Peters Church of England Primary School Leeds,53.800468,-1.530166,0.867299,89.000000,FALSE,TRUE,FALSE,Primary
+St Peters Church of England Primary School Leeds,53.850122,-1.670328,0.867299,89.000000,FALSE,TRUE,FALSE,Primary
 Collingham Lady Elizabeth Hastings Church of England Primary School,0.000000,0.000000,0.862559,89.000000,FALSE,TRUE,FALSE,Primary
 St Pauls Catholic Primary School,53.851944,-1.557328,0.857820,89.000000,FALSE,TRUE,TRUE,Primary
 St Edwards Catholic Primary School Boston Spa,53.904400,-1.352226,0.853081,88.000000,FALSE,TRUE,TRUE,Primary
 Ss Peter and Paul Catholic Primary School Yeadon,53.864351,-1.700633,0.848341,88.000000,FALSE,TRUE,TRUE,Primary
 Horsforth Newlaithes Primary School,0.000000,0.000000,0.843602,88.000000,FALSE,FALSE,FALSE,Primary
 Bardsey Primary School,53.886073,-1.447622,0.838863,88.000000,FALSE,FALSE,FALSE,Primary
-Hill Top Primary School,53.716370,-1.576562,0.834123,87.000000,FALSE,FALSE,FALSE,Primary
+Hill Top Primary School,53.755142,-1.765372,0.834123,87.000000,FALSE,FALSE,FALSE,Primary
 St Francis Catholic Primary School Morley,53.746603,-1.609495,0.829384,87.000000,FALSE,TRUE,TRUE,Primary
 Hawksworth Wood Primary School,53.831459,-1.616892,0.824645,87.000000,FALSE,FALSE,FALSE,Primary
 Otley All Saints CofE Primary School,0.000000,0.000000,0.819905,87.000000,FALSE,TRUE,FALSE,Primary
@@ -57,7 +57,7 @@ St Marys Church of England Controlled Primary School Boston Spa,-33.765997,150.7
 Asquith Primary School,53.755400,-1.610486,0.739336,85.000000,FALSE,FALSE,FALSE,Primary
 Rothwell St Marys RC Primary School,53.746166,-1.474667,0.734597,84.000000,FALSE,TRUE,FALSE,Primary
 Roundhay St Johns Church of England Primary School,53.827478,-1.495876,0.729858,84.000000,FALSE,TRUE,FALSE,Primary
-St Patrick Catholic Primary School,53.422890,-1.455957,0.725118,84.000000,FALSE,TRUE,TRUE,Primary
+St Patrick Catholic Primary School,53.800291,-1.512943,0.725118,84.000000,FALSE,TRUE,TRUE,Primary
 Swinnow Primary School,53.800392,-1.650102,0.720379,84.000000,FALSE,FALSE,FALSE,Primary
 Cobden Primary School,53.783006,-1.609550,0.715640,84.000000,FALSE,FALSE,FALSE,Primary
 Austhorpe Primary School,53.797714,-1.436449,0.710900,84.000000,FALSE,FALSE,FALSE,Primary
@@ -110,7 +110,7 @@ Carr Manor Primary School,53.835316,-1.551349,0.492891,75.000000,FALSE,FALSE,FAL
 Park Spring Primary School,53.799272,-1.636994,0.488152,75.000000,FALSE,FALSE,FALSE,Primary
 Corpus Christi Catholic Primary School,53.797081,-1.486063,0.483412,75.000000,FALSE,TRUE,TRUE,Primary
 Lady E Hastings CofE Primary School,0.000000,0.000000,0.478673,75.000000,FALSE,TRUE,FALSE,Primary
-Sacred Heart Catholic Primary School,53.400962,-1.499673,0.473934,75.000000,FALSE,TRUE,TRUE,Primary
+Sacred Heart Catholic Primary School,53.811850,-1.595547,0.473934,75.000000,FALSE,TRUE,TRUE,Primary
 Allerton Bywater Primary School,53.746729,-1.372199,0.469194,74.000000,FALSE,FALSE,FALSE,Primary
 Pool-in-Wharfedale Church of England Voluntary Controlled Primary School,0.000000,0.000000,0.464455,74.000000,FALSE,TRUE,FALSE,Primary
 Shakespeare Primary School,0.000000,0.000000,0.459716,74.000000,FALSE,FALSE,FALSE,Primary
@@ -142,7 +142,7 @@ Middleton St Marys Church of England Voluntary Controlled Primary School,0.00000
 Kirkstall St Stephens Church of England Primary School,0.000000,0.000000,0.336493,70.000000,FALSE,TRUE,FALSE,Primary
 Chapel Allerton Primary School,53.826860,-1.537330,0.331754,70.000000,FALSE,FALSE,FALSE,Primary
 Southroyd Primary and Nursery School,53.788318,-1.663443,0.327014,70.000000,FALSE,FALSE,FALSE,Primary
-Carlton Primary School,53.583872,-1.447405,0.322275,69.000000,FALSE,FALSE,FALSE,Primary
+Carlton Primary School,53.739721,-1.491680,0.322275,69.000000,FALSE,FALSE,FALSE,Primary
 Whingate Primary School,53.793865,-1.603503,0.317536,69.000000,FALSE,FALSE,FALSE,Primary
 Greenhill Primary School,53.799267,-1.622765,0.312796,69.000000,FALSE,FALSE,FALSE,Primary
 St Josephs Catholic Primary School Hunslet,0.000000,0.000000,0.308057,69.000000,FALSE,TRUE,TRUE,Primary
@@ -168,7 +168,7 @@ St Francis of Assisi Catholic Primary School,53.778768,-1.547694,0.218009,64.000
 Hunslet Moor Primary School,53.777831,-1.543773,0.213270,64.000000,FALSE,FALSE,FALSE,Primary
 Hugh Gaitskell Primary School,53.771245,-1.568603,0.208531,63.000000,FALSE,FALSE,FALSE,Primary
 Thorpe Primary School,53.834603,-1.729370,0.203791,63.000000,FALSE,FALSE,FALSE,Primary
-Shire Oak VC Primary School,53.821892,-1.574068,0.199052,63.000000,FALSE,TRUE,FALSE,Primary
+Shire Oak VC Primary School,53.822232,-1.573961,0.199052,63.000000,FALSE,TRUE,FALSE,Primary
 Blackgates Primary School,53.728989,-1.565908,0.194313,62.000000,FALSE,FALSE,FALSE,Primary
 Beeston Primary School,53.772033,-1.572824,0.189573,62.000000,FALSE,FALSE,FALSE,Primary
 Sharp Lane Primary School,53.749070,-1.527121,0.184834,62.000000,FALSE,FALSE,FALSE,Primary
@@ -192,13 +192,13 @@ Raynville Primary School,53.808069,-1.619175,0.104265,55.000000,FALSE,FALSE,FALS
 Bramley St Peters Church of England Primary School,0.000000,0.000000,0.099526,55.000000,FALSE,TRUE,FALSE,Primary
 The New Bewerley Community Primary School,0.000000,0.000000,0.094787,55.000000,FALSE,FALSE,FALSE,Primary
 Iveson Primary School,53.843388,-1.605115,0.090047,54.000000,FALSE,FALSE,FALSE,Primary
-Oakwood Primary School,53.832992,-1.520920,0.085308,54.000000,FALSE,FALSE,FALSE,Primary
+Oakwood Primary School,53.812721,-1.498563,0.085308,54.000000,FALSE,FALSE,FALSE,Primary
 Moor Allerton Hall Primary School,53.839276,-1.523343,0.080569,53.000000,FALSE,FALSE,FALSE,Primary
 Micklefield Church of England Voluntary Controlled Primary School,0.000000,0.000000,0.075829,53.000000,FALSE,TRUE,FALSE,Primary
 Bracken Edge Primary School,53.820880,-1.526645,0.071090,51.000000,FALSE,FALSE,FALSE,Primary
 Pudsey Tyersal Primary School,53.789158,-1.700961,0.066351,50.000000,FALSE,FALSE,FALSE,Primary
 Hovingham Primary School,53.816114,-1.509284,0.061611,49.000000,FALSE,FALSE,FALSE,Primary
-Burley St Matthias Church of England Voluntary Controlled Primary School,50.826420,-1.701727,0.056872,48.000000,FALSE,TRUE,FALSE,Primary
+Burley St Matthias Church of England Voluntary Controlled Primary School,0.000000,0.000000,0.056872,48.000000,FALSE,TRUE,FALSE,Primary
 Brownhill Primary School,53.802207,-1.510693,0.052133,48.000000,FALSE,FALSE,FALSE,Primary
 St James Church of England Voluntary Controlled Primary School,0.000000,0.000000,0.047393,47.000000,FALSE,TRUE,FALSE,Primary
 Mill Field Primary School,53.823618,-1.549560,0.042654,46.000000,FALSE,FALSE,FALSE,Primary
@@ -244,7 +244,7 @@ Bruntcliffe School,53.745600,-1.619293,0.325581,48.000000,FALSE,FALSE,FALSE,Seco
 Leeds West Academy,53.814069,-1.654118,0.302326,48.000000,FALSE,FALSE,FALSE,Secondary
 Lawnswood School,53.836154,-1.595189,0.279070,48.000000,FALSE,FALSE,FALSE,Secondary
 Allerton Grange School,53.840862,-1.521022,0.255814,46.000000,FALSE,FALSE,FALSE,Secondary
-Cockburn,53.778410,-1.542300,0.232558,46.000000,FALSE,FALSE,FALSE,Secondary
+Cockburn,0.000000,0.000000,0.232558,46.000000,FALSE,FALSE,FALSE,Secondary
 Mount St Marys Catholic High School,53.793860,-1.526880,0.209302,45.000000,FALSE,TRUE,TRUE,Secondary
 David Young Community Academy,53.819843,-1.476535,0.186047,44.000000,FALSE,FALSE,FALSE,Secondary
 New Horizon Community School,0.000000,0.000000,0.162791,42.000000,TRUE,FALSE,FALSE,Secondary
@@ -254,4 +254,4 @@ John Smeaton Community College,0.000000,0.000000,0.093023,38.000000,FALSE,FALSE,
 The Co-operative Academy of Leeds,53.802616,-1.520949,0.069767,33.000000,FALSE,FALSE,FALSE,Secondary
 South Leeds Academy,53.801112,-1.534924,0.046512,31.000000,FALSE,FALSE,FALSE,Secondary
 Swallow Hill Community College,53.794417,-1.605504,0.023256,28.000000,FALSE,FALSE,FALSE,Secondary
-City of Leeds School,53.800046,-1.546733,0.000000,26.000000,FALSE,FALSE,FALSE,Secondary
+City of Leeds School,53.817779,-1.558321,0.000000,26.000000,FALSE,FALSE,FALSE,Secondary
