@@ -38,7 +38,8 @@ type IndexModule() as x =
         | rank when rank >= sixth*3.0 -> "3"
         | rank when rank >= sixth*2.0 -> "4"
         | rank when rank >= sixth*1.0 -> "5"
-        | _ -> "6"
+        | rank when rank >= 0.0 -> "6"
+        | _ -> "x" // for schools with an unknown rank
 
     let typePart = function
         | "Secondary" -> "s"
