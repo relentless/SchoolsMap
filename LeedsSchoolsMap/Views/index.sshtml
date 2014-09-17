@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <title>Leeds Schools Map</title>
+
+    <script src="../Content/jquery-2.1.1.min.js"></script>
+    <script src="../Content/schoolsMap.js"></script>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" charset="utf-8"/>
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBY0C0KvGuucsRw7adOrXnsir25tEPAUpQ">
+    </script>
+    <script type="text/javascript">
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"/>
+  </body>
+</html>
