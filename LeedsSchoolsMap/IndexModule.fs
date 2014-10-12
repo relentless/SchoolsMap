@@ -67,12 +67,11 @@ type IndexModule() as x =
         |> Array.map (fun school -> {Name = school.Name; Lat = school.Lat; Lon = school.Lon; Rank = school.Rank; Score = school.Score; Type = school.Type; Icon = school |> getIcon})
         |> Array.toList 
 
+    let schoolData = loadSchoolData()
+    let schoolsJson = JsonConvert.SerializeObject(schoolData)
+
     do x.Get.["/"] <- fun _ -> 
         box x.View.["index"]
 
     do x.Get.["/schools"] <- fun _ -> 
-
-        let schoolData = loadSchoolData()
-        let json = JsonConvert.SerializeObject(schoolData)
-
-        json :> obj
+        schoolsJson :> obj
