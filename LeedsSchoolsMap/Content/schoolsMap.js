@@ -6,7 +6,7 @@
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
     $.ajax({
-        url: "http://localhost:34298/schools",
+        url: document.URL + "schools",
         type: 'GET',
         contentType: "application/json",
         dataType: "json",
